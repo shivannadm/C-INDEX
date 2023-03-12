@@ -1,4 +1,4 @@
-// Learnprogramo - programming made simple
+
 /*Dynamic Array in C - Hacker Rank Solution*/
 #include <stdio.h>
 #include <stdlib.h>
