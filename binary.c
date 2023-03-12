@@ -47,6 +47,5 @@ int main()
         printf("The number is not found.\n");
     else
         printf("The number is found at position %d\n", pos + 1);
-
     return 0;
 }
