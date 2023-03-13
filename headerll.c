@@ -77,7 +77,7 @@ void insert_end()
     }
   }
 
-  void display()
+void display()
   {
    DNODE *curptr=head->next;
    HNODE *hd=head;
