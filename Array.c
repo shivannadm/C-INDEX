@@ -14,7 +14,7 @@ void crete(int arr[], int n)
 void display(int arr[], int n)
 {
     int i;
-    printf("array elements are: ");
+    printf("Array elements are: ");
     for (i = 0; i < n; i++)
     {
         printf("%d\t", arr[i]);
