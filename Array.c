@@ -30,7 +30,7 @@ int main()
     while (1)
     {
 
-        printf("\n1.Crete\n2.Display\n3.exit\n");
+        printf("\n1.Crete\n2.Display\n3.Exit\n");
         printf("Enter the choice: ");
         scanf("%d", &choice);
         switch (choice)
