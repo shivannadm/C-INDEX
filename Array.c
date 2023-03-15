@@ -43,7 +43,7 @@ int main()
             if (count != 0)
                 display(arr, n);
             else
-                printf("Array not crete");
+                printf("Array not crete...!");
             break;
         case 3:
             exit(0);
