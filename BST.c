@@ -65,6 +65,7 @@ main()
     int arr[] = {1, 2, 3, 4, 5, 6, 7};
     int n = sizeof(arr) / sizeof(arr[0]);
     NODE *root = insertlevelorder(arr, 0, n);
+    printf("\n");
     innorder(root);
     printf("\n");
     preorder(root);
