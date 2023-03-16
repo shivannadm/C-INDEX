@@ -71,4 +71,5 @@ main()
     preorder(root);
     printf("\n");
     postorder(root);
+    printf("\n");
 }
