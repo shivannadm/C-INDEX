@@ -9,7 +9,7 @@ void dfs(int graph[10][10],int n,int visited[],int u)
     printf("%d",u);
     for(v=0;v<n;v++)
     {
-        if(visited[v]==0 && graph[u][v]==1)
+        if(visited[v] == 0 && graph[u][v]==1)
             dfs(graph,n,visited,u);
     }
 }
