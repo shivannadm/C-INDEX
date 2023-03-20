@@ -40,7 +40,7 @@ void bfs(int graph[10][10],int n,int visited[],int u)
         printf("Vertex value is = %d",vertex);
         for(i=0;i<n;i++)
         {
-            if((graph [vertex][i] == 1) && (visited[i]==0))
+            if((graph [vertex][i] == 1) && (visited[i] == 0))
                 printf("%d",i);
                 visited[i] = 1;
                 enqueue(i);
