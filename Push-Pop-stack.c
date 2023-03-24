@@ -80,7 +80,7 @@ void main()
             if (ele == -1)
                 printf("");
             else
-                printf(" poped element is %d", ele);
+                printf("Poped element is %d", ele);
             break;
         case '3':
             display(arr, &top);
