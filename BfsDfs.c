@@ -14,6 +14,8 @@ void dfs(int graph[10][10],int n,int visited[],int u)
     }
 }
 
+
+
 void enqueue(int u) 
 {
     r++;
