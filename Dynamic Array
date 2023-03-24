@@ -33,7 +33,7 @@ int main()
             scanf("%d %d", &shelf, &pages);
             total_number_of_books[shelf]++;
             int *book = total_number_of_pages[shelf];
-            while (*book != 0)
+            while (*book != 0) 
                 book++;
             *book = pages;
         }
