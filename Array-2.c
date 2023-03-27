@@ -5,7 +5,7 @@ int n;
 void insert(int arr[])
 {
     int i, pos, ele;
-    printf("Enter te position to be inserted:  ");
+    printf("Enter te position to be inserted:   ");
     scanf("%d", &pos);
     printf("Enter the element to be inserted: ");
     scanf("%d", &ele);
