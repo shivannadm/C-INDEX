@@ -71,7 +71,7 @@ void main()
     while(1)
     {
         printf("Menue's: ");
-        printf("\n1.BFS\n2.DFS\n3.Exit\n");
+        printf("\n1.BFS\n2.DFS\n3.Exit \n");
         printf("\nEnter your choice here: ");
         scanf("%d",&choice);
         switch (choice)
