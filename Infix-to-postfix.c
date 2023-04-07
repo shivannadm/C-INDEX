@@ -23,8 +23,8 @@ int precedence(char operator)
 	}
 }
 
-// Function to check if the scanned character
-// is an operator
+// Function to check if the scanned character is an operator
+
 int isOperator(char ch)
 {
 	return (ch == '+' || ch == '-' || ch == '*' || ch == '/'
