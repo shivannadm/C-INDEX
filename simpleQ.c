@@ -23,7 +23,7 @@ int delete(int queue[], int *rear, int *front)
     else
     {
         int element = queue[*front];
-        printf("\nThe  deleted element is %d", element);
+        printf("\nThe  deleted element is %d ", element);
         front = front + 1;
     }
 }
