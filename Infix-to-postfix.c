@@ -69,8 +69,8 @@ char* infixToPostfix(char* infix)
 				top--;
 		}
 	
-		// If the scanned character is an operator
-		// push it in the stack
+		// If the scanned character is an operator push it in the stack
+		
 		else if (isOperator(infix[i])) {
 			while (top > -1
 				&& precedence(stack[top])
