@@ -43,7 +43,7 @@ int main()
     scanf("%d", &size);
     while (1)
     {
-        printf("\n 1.insert an element \n 2.Delete an element \n 3.Display the element \n 4.Exit \n");
+        printf("\n1.insert an element \n2.Delete an element \n3.Display the element \n4.Exit \n");
         printf("Enter the choice: ");
         scanf("%d", &choice);
         switch (choice)
