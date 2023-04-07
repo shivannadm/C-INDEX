@@ -3,7 +3,7 @@
 void insert(int queue[], int *rear, int size)
 {
     int element;
-    printf("\nEnter the new element ");
+    printf("\nEnter the new element: ");
     scanf("%d", &element);
     if (*rear != size - 1)
     {
@@ -61,7 +61,7 @@ int main()
             exit(0);
             break;
         default:
-            printf("invalid input");
+            printf("Invalid input...!");
         }
     }
     return 0;
