@@ -57,9 +57,8 @@ char* infixToPostfix(char* infix)
 			stack[++top] = infix[i];
 		}
 	
-		// if the scanned character is ')'
-		// pop the stack and add it to the
-		// output string until empty or '(' found
+		// if the scanned character is ')'  pop the stack and add it to the  output string until empty or '(' found
+		
 		else if (infix[i] == ')') {
 			while (top > -1 && stack[top] != '(')
 				postfix[j++] = stack[top--];
