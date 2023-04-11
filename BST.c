@@ -1,3 +1,5 @@
+//  Traversing of Binary Search Tree
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -73,4 +75,3 @@ main()
     postorder(root);
     printf("\n");
 }
-
