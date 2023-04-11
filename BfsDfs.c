@@ -1,3 +1,5 @@
+//Graph,  Breadth First Search and Depth First Search
+
 #include<stdio.h>
 #include<stdlib.h>
 int q[10], f = 0, r = - 1;
