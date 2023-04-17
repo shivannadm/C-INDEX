@@ -1,4 +1,4 @@
-//hackerrank soln
+//hackerrank solution
 
 #include <stdio.h>
 #include <string.h>
