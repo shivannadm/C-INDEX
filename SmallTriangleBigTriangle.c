@@ -43,9 +43,7 @@ void sort_by_area(triangle* tr, int n) {
             }
         }
     }
-	/**
-	* Sort an array a of the length n
-	*/
+	
 }
 
 int main()
