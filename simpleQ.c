@@ -1,3 +1,5 @@
+// Simple Queue
+
 #include <stdio.h>
 #include <stdlib.h>
 void insert(int queue[], int *rear, int size)
