@@ -1,15 +1,15 @@
 
-import pyttsx3 #pip install pyttsx3 import speech_recognition as sr #pip install speechRecognition import datetime import wikipedia #pip install wikipedia import webbrowser import os import smtplib
-
-    engine = pyttsx3.init('sapi5')
-                              voices = engine.getProperty('voices')
+import pyttsx3 
+#pip install pyttsx3 import speech_recognition as sr 
+#pip install speechRecognition import datetime import wikipedia 
+#pip install wikipedia import webbrowser import os import smtplib
+engine = pyttsx3.init('sapi5')
+voices = engine.getProperty('voices')
 #print(voices[0].id)
-                                                              engine.setProperty('voice', voices[0].id)
-
-                                                                                              def speak(audio) :engine.say(audio)
-                                                                                                                               engine.runAndWait()
-
-                                                                                                                                   def wishMe() :hour = int(datetime.datetime.now().hour) if hour >= 0 and hour<12:
+engine.setProperty('voice', voices[0].id)
+def speak(audio) :engine.say(audio)
+engine.runAndWait()
+def wishMe() :hour = int(datetime.datetime.now().hour) if hour >= 0 and hour<12:
         speak("good morning!")
 
     elif hour>=12 and hour<18:
