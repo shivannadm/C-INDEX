@@ -1,4 +1,4 @@
-// Reverse string using recursion
+// Reversing string using recursion
 
 #include<stdio.h>
 #include<string.h>
