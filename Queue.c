@@ -1,3 +1,4 @@
+
 // Q Implementation
 
 #include <stdio.h>
