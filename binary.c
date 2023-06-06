@@ -51,3 +51,4 @@ int main()
         printf("The number is found at position %d\n", pos + 1);
     return 0;
 }
+
