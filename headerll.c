@@ -1,4 +1,4 @@
-//header linked list 
+// Header linked list 
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -93,3 +93,4 @@ void display()
   }
     printf("\n");
   }
+
