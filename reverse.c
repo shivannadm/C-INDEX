@@ -22,3 +22,4 @@ void rstrrev(char str[],int i){
     rstrrev(str,i+1);
     printf("%c",str[i]);
 }
+
