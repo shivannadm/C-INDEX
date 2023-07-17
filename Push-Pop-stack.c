@@ -1,3 +1,6 @@
+
+// Simple Queue, push, pop, peek
+
 #include <stdio.h>
 #include <stdlib.h>
 int size;
@@ -98,3 +101,4 @@ void main()
         }
     }
 }
+
