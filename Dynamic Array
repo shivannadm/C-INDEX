@@ -1,4 +1,6 @@
-//Dynamic Array 
+
+//Dynamic Array using c language
+
 #include <stdio.h>
 #include <stdlib.h>
 
