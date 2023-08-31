@@ -1,5 +1,6 @@
 
 // copy this code and run this in other c compiler
+
 //Digit frequency in Hackerrank solution
 
 #include <stdio.h>
