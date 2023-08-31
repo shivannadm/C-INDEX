@@ -1,4 +1,5 @@
- //Triangle Hackerrank
+
+//Triangle Hackerrank
 
 #include <stdio.h>
 #include <stdlib.h>
