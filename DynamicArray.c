@@ -60,6 +60,7 @@ int main()
             free(*(total_number_of_pages + i));
         }
     }
+    
     if (total_number_of_pages)
     {
         free(total_number_of_pages);
