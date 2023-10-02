@@ -1,4 +1,4 @@
-//Simple token based program
+//tokens based program
 
 #include <stdio.h>
 #include <string.h>
