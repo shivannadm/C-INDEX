@@ -1,4 +1,4 @@
-//Hackerrank solution
+//Simple token based program
 
 #include <stdio.h>
 #include <string.h>
