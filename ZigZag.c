@@ -5,9 +5,9 @@
 int main()
 {
     int r ,c;
-    for(r=0;r<3;r++)
+    for(r=1;r<4;r++)
     {
-        for(c=0;c<9;c++)
+        for(c=1;c<8;c++)
         {
             if((r+c)%4==0 || r==2 && c%4==0)
             {
