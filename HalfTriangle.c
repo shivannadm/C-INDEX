@@ -1,4 +1,5 @@
 // Right and Left angled Triangle printing
+
 #include<stdio.h>
 
 int main()
