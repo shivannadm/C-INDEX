@@ -1,4 +1,4 @@
-// Right and Left angled Triangle printing
+// Right and Left angled Triangle pattern printing
 
 #include<stdio.h>
 
