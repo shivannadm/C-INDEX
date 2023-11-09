@@ -1,2 +1,2 @@
 # C-Program
-Here all related to C-programming language codes will available.
+Here all related to C language codes will available.
